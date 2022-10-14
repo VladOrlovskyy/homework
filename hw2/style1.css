@@ -1,0 +1,139 @@
+body {
+background: url(images/img.png) no-repeat;
+-moz-background-size: 100%; /* Firefox 3.6+ */
+-webkit-background-size: 70%; /* Safari 3.1+ и Chrome 4.0+ */
+-o-background-size: 100%; /* Opera 9.6+ */
+background-size: 100%; /* Современные браузеры */
+background-position: 10% 15%
+}
+
+        .border1 {
+            border: white;
+            background-color: white;
+            width: 1507px;
+            height: 1px;
+            margin: auto;
+
+        }
+
+      .border2 {
+          border: 1px solid  transparent;
+          height: 900px;
+          margin: 0;
+          margin-top: 110px;
+      }
+
+        .border3 {
+            margin-top: 960px;
+            border: white;
+            background-color: white;
+            height: 200px;
+        }
+
+        .text {
+            margin-top: 5px;
+            border: white;
+            background-color: white;
+            height: 200px;
+            margin-left: 100px;
+            margin-right: 100px;
+        }
+
+         #border1_1 {
+                     border: 1px solid white;
+                      width: 850px;
+                      height: 90px;
+                      margin-top: 7px;
+                      margin-left:320px;
+                     }
+
+        .bottom{
+                  border: 5px solid white;
+                  background-color:white;
+                  width: 170px;
+                  height: 40px;
+                  margin-left: 20px;
+                  margin-top: 7px;
+                  float: left;
+                  display:inline-block;
+                  text-decoration: none;
+
+               }
+
+       .bottom_text {
+                 margin-top: 10px;
+                 text-decoration: none;
+                 text-align:  center;
+                 display: block;
+                 font-size: 16pt;
+                 font-weight: bold;
+                 color: #FF0000;
+                 font-family: Arial;
+
+                }
+
+            .border_button {
+                position: absolute;
+                width: 191px;
+                height: 51px;
+                left: 680px;
+                top: 1450px;
+                background: #FF0000;
+                border-radius: 4px;
+
+            }
+
+            .text_button{
+                border: #FF0000;
+                background:#FF0000;
+                color: white; /* Белые буквы */
+                font-size: 12px;
+                width: 191px;
+                height: 51px;
+                border-radius: 4px;
+                font-weight: bold;
+                cursor: pointer;
+            }
+
+            .paragraph_title {
+                font-family: Montserrat;
+                font-size: 22px;
+                font-weight: 700;
+                line-height: 27px;
+                letter-spacing: 3.299999952316284px;
+                text-align: left;
+                margin-left: 27%;
+
+            }
+            .text_paragraph {
+                font-family: Montserrat;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 26px;
+                letter-spacing: 2.4000000953674316px;
+                text-align: center;
+            }
+
+            .border_copyright {
+
+            border: 1px white solid;
+                width: 462px;
+                height: 35px;
+                margin-left: 55%;
+                margin-top: 530px;
+
+            }
+
+            .text_copyright{
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                 margin-left: 27px;
+                margin-top: 10px;
+                display: flex;
+                align-items: center;
+                letter-spacing: 2.4px;
+
+                color: #373737;
+            }
